@@ -1,0 +1,90 @@
+@import 'fonts';
+
+.link {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    width: 320px;
+    height: 213px;
+    margin: 0 10px 10px 0;
+    background-position: center;
+    background-position: unset;
+    background-size: cover;
+    &:hover {
+        color: #ec5d10
+    }
+}
+
+.header__contact, .footer__contacts-mail {
+    text-decoration: none;
+    color: #000;
+}
+
+.body {
+    font-family: 'roboto', 'sans-serif';
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo__title {
+    font-size: 16px;
+    margin-left: 5px;
+    display: flex;
+    align-self: center;
+}
+
+.main_semester__download-link1 {
+    background-image: url('../images/laptop_work.jpg');
+}
+
+.main_semester__download-link2 {
+    background-image: url('../images/cat_keybord.jpg');
+}
+
+.main_semester__download-link3 {
+    background-image: url('../images/pc_work.jpg');
+}
+
+.main_semester__download-link4 {
+    background-image: url('../images/pc_desktop.jpg');
+}
+
+.main_semester__download-link5 {
+    background-image: url('../images/woman_laptop.jpg');
+}
+
+.main_semester__download-link6 {
+    background-image: url('../images/classroom.jpg');
+}
+
+.main_semester__download-link7 {
+    background-image: url('../images/books.jpg');
+}
+
+.main_semester__download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: none;
+}

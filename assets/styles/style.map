@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"\r\n/*@mixin icon($size) {\r\n    content: '';\r\n    width: $size;\r\n    height: $size;\r\n    position: absolute;\r\n    background-position: center;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    top: 50%;\r\n    left: 0;\r\n    transform: translateY(-50%);\r\n}\r\n\r\n@mixin icon-prepare($ic-height, $ic-padding) {\r\n    position: relative;\r\n    padding-left: $ic-padding;\r\n    height: $ic-height;\r\n    display: flex;\r\n    align-items: center;\r\n}*/\r\n\r\nbody {\r\n    font-family: 'roboto', 'sans-serif';\r\n    font-weight: normal;\r\n    font-size: 12px;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    font-weight: 700;\r\n}\r\n\r\n/*Header*/\r\n\r\n\r\n/*Main*/\r\n\r\n\r\n/*Footer*/"
+	],
+	"names": [],
+	"mappings": "AACA;;;;;;;;;;;;;;;;;;;GAmBG;;AAEH,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,sBAAsB;EACnC,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,GAAG;CACnB;;AAED,UAAU;AAGV,QAAQ;AAGR,UAAU"
+}
